@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: linear-gradient(to top right, #1d2b64, #f8cdda);
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    color: #fff;
+    width: 200px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+nav ul li a:hover {
+    background: #444;
+}
+
+/* Main Section */
+main {
+    margin-left: 220px;
+    padding: 1rem;
+}
+
+section {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+article h2 {
+    color: #333;
+    font-size: 1.4rem;
+}
+
+article p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #fff;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.platform-logo {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
